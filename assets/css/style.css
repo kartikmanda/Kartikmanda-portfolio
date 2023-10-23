@@ -492,6 +492,22 @@ margin: 0%;
   
   /* ----------------------------------------------- SKILLS  SECTION  COMPLETED -------------------------------------------------------- */
 /* ----------------------------------------------- My Experience   -------------------------------------------------------- */
+   .Intern h1{
+    text-align: center;
+  font-size: 40px;
+  }
+  
+  
+  #My-Experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+
 .TY-logo {
 	position: relative;
 	height: 150px;
