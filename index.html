@@ -39,6 +39,8 @@
             <div class="header-links">
                <a class="link" href="#about" data-scroll> <img src="./assets/img/png/user.png " width="20px" /> MY SELF
                </a>
+               <a class="link" href="#My-Experience" data-scroll> <img src="./assets/img/png/Experience.png " width="20px" /> MY EXPERIENCE
+               </a>
                <a class="link" href="#myskills" data-scroll> <img src="./assets/img/png/gear.png" width="20px" /> MY
                SKILLS </a>
                <a class="link" href="#projects" data-scroll> <img src="./assets/img/png/idea.png" width="20px" /> MY
@@ -164,37 +166,34 @@
          </div>
       </section>
       <!-- ----------------------------------------------------------------------------------- SKILLS FINISHED ------------------------------------>
-       <!---------------------------------------------------------------------------------------- My Experience ------------------------------------->
-  <section id="My-Experience">
+      <!---------------------------------------------------------------------------------------- My Experience ------------------------------------->
+      <section id="My-Experience">
          <div class="Intern">
-             <h1>MY EXPERIENCE</h1>
+            <h1>MY EXPERIENCE</h1>
          </div>
-     
-     
          <div class="experience-card">
-             <div class="companylogo-image">
-                 <img src="./assets/img/jpg/Company logo.png" alt="" class="TY-logo" style="margin-bottom: 20%;">
-             </div>
-             <span class="Company-name" style="font-size: 30px; font-weight: bolder; color: #000;">Tytly Infotech Pvt Ltd</span>
-             <span class="Position-job" style="font-size: 20px; font-weight: bold; color: #020d35;"> ( Web Developer Intern )</span>
-             <span class="Position-job" style="font-size: 10px; font-weight: bold; color: #000;"> NOVEMBER 2022 - MAY 2023 </span>
-     
-             <!-- Add a button to open a new window -->
-             <a href="https://drive.google.com/file/d/1AH_jibq5pS8H7b5ywxy9809f5hSAGEnX/view?usp=share_link" target="_blank" class="open-button">Certificate</a>
+            <div class="companylogo-image">
+               <img src="./assets/img/jpg/Company logo.png" alt="" class="TY-logo" style="margin-bottom: 20%;">
+            </div>
+            <span class="Company-name" style="font-size: 30px; font-weight: bolder; color: #000;">Tytly Infotech Pvt Ltd</span>
+            <span class="Position-job" style="font-size: 20px; font-weight: bold; color: #020d35;"> ( Web Developer Intern )</span>
+            <span class="Position-job" style="font-size: 10px; font-weight: bold; color: #000;">NOVEMBER 2022 - MAY 2022</span>
+            <!-- Add a button to open a new window -->
+            <a href="https://drive.google.com/file/d/1AH_jibq5pS8H7b5ywxy9809f5hSAGEnX/view?usp=share_link" target="_blank" class="open-button">Certificate</a>
          </div>
-     </section>
-        <!---------------------------------------------------------------------------------------- My Experience Finished ------------------------------------->
+      </section>
+      <!---------------------------------------------------------------------------------------- My Experience Finished ------------------------------------->
       <!---------------------------------------------------------------------------------------- My Projects ------------------------------------->
       <section id="projects">
          <div class="pt">
-            <h1>MY PROJECT</h1>
+            <h1>MY PROJECTS</h1>
          </div>
          <!----------------------------------------------------------------- Project 1: Student and Teacher Attendance Book Application ---->
          <div class="user-projects">
             <div class="images-right">
                <picture>
-                  <source type="image/webp" alt="Project-1"  />
-                  <img alt="Project 1"  src="./assets/img/jpg/pj1.png" />
+                  <source type="image/webp" alt="Project-1" />
+                  <img alt="Project 1" src="./assets/img/jpg/pj1.png" />
                </picture>
             </div>
             <div class="contents" style="text-align: center">
@@ -237,7 +236,7 @@
          <div class="contact">
             <h1> CONTACT ME </h1>
          </div>
-         <!-------------------------------------------- LEFT SIDE   ---------------------------------->
+         <!-------------------------------------------- LEFT SIDE ---------------------------------->
          <div class="form-container">
             <div class="form">
                <div class="contact-info">
@@ -248,14 +247,14 @@
                      < Developer / Designer >
                   </h3>
                   <p>I'm available for freelance or intern positions. Feel free to contact me so we can discuss a project or
-                     just to say hi! My inbox is open to all. 
+                     just to say hi! My inbox is open to all.
                   </p>
                   <div class="location-container">
                      <img src="./assets/img/jpg/location.png" alt="location" class="location" style="width:40px">
                      <span class="location-text"> Mumbai 🚩, India </span>
                   </div>
                </div>
-               <!-------------------------------------------- RIGHT SIDE  ---------------------------------->   
+               <!-------------------------------------------- RIGHT SIDE ---------------------------------->
                <div class="contact-form">
                   <div class="social-media">
                      <h3>My Social Media Accounts</h3>
@@ -281,13 +280,20 @@
                      <a href="mailto:kartikmanda0604@gmail.com" target="_blank">
                      <img class="gm" alt="Email" src="./assets/img/sm/gm.png" />
                      </a>
+                     <!-- Behance -->
+                     <a href="https://www.behance.net/Kartik_Manda" target="_blank">
+                     <img class="be" alt="Behance" src="./assets/img/sm/be.png" />
+                     </a>
                      <!-- GitHub -->
                      <a href="https://github.com/kartikmanda" target="_blank">
-                     <img class="gt" alt="/" src="./assets/img/sm/gt.png" />
+                     <img class="gt" alt="/" src="./assets/img/sm/gt.jpg" />
                      </a>
                   </div>
                   <form action="https://getform.io/f/5f46fe4a-f633-4b99-8de3-0d82bdf67426" method="POST"
                      style="font-size: 150%;">
+                     <div class="letschat">
+                        <h1> Let's Chat </h1>
+                     </div>
                      <label for="name"><strong>Name</strong></label>
                      <input type="text" id="name" name="name" required>
                      <label for="email"><strong>Email</strong></label>
@@ -311,29 +317,29 @@
          <p>Made with ❤️ by Kartik Manda</p>
       </footer>
       <!------------------------------------------------------------------------------------- FOOTER FINISHED ---------------------------------------->
-      <!--------------------------------------------------------------------------------- IMPORTING  JAVASCRIPT --------------------------------------->
+      <!--------------------------------------------------------------------------------- IMPORTING JAVASCRIPT --------------------------------------->
       <!-- Import JS: TOP-BUTTON -->
       <script>
          const button = document.querySelector('.top-button');
          const displayButton = () => {
-           window.addEventListener('scroll', () => {
-             console.log(window.scrollY);
-             if (window.scrollY > 100) {
-               button.style.display = "block";
-             } else {
-               button.style.display = "none";
-             }
-           });
+         window.addEventListener('scroll', () => {
+         console.log(window.scrollY);
+         if (window.scrollY > 100) {
+         button.style.display = "block";
+         } else {
+         button.style.display = "none";
+         }
+         });
          };
          const scrollToTop = () => {
-           button.addEventListener("click", () => {
-             window.scroll({
-               top: 0,
-               left: 0,
-               behavior: 'smooth'
-             });
-             console.log(event);
-           });
+         button.addEventListener("click", () => {
+         window.scroll({
+         top: 0,
+         left: 0,
+         behavior: 'smooth'
+         });
+         console.log(event);
+         });
          };
          displayButton();
          scrollToTop();
