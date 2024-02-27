@@ -501,40 +501,54 @@ body {
 /* ----------------------------------------------- SKILLS SECTION COMPLETED -------------------------------------------------------- */
 
 /* ----------------------------------------------- My Experience -------------------------------------------------------- */
-.Intern h1 {
-	text-align: center;
-	font-size: 40px;
+.Intern h1{
+    text-align: center;
+  font-size: 40px;
+  }
+  
+  
+  #My-Experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+
+  .experience-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px; /* Adjust the margin as needed */
 }
 
-
-#My-Experience {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 90%;
-	max-width: 90%;
-	margin: 0 auto;
+.experience-card {
+    width: 48%; /* Adjust the width as needed */
+    margin-bottom: 20px; /* Adjust the margin between cards as needed */
 }
 
-@media only screen and (min-width: 550px) {
-	#projects {
-		width: 90%;
-	}
-}
+  
+  @media only screen and (min-width: 550px) {
+    #projects {
+      width: 90%;
+    }
+  }
+  
+  @media only screen and (min-width: 550px) {
+    .project-1 {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (min-width: 550px) {
+    .project-2 {
+      width: 100%;
+    }
+  }
 
-@media only screen and (min-width: 550px) {
-	.project-1 {
-		width: 100%;
-	}
-}
-
-@media only screen and (min-width: 550px) {
-	.project-2 {
-		width: 100%;
-	}
-}
-
-.TY-logo {
+   .TY-logo {
 	position: relative;
 	height: 150px;
 	width: 150px;
@@ -544,7 +558,7 @@ body {
 	padding: 5px;
 }
 
-.experience-card {
+.experience-card-1{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -560,7 +574,7 @@ body {
 	/* Center horizontally */
 }
 
-.experience-card::before {
+.experience-card-1::before {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -570,14 +584,6 @@ body {
 	border-radius: 10px 10px 0 0;
 	background-color: #030033;
 }
-
-/* Make it responsive */
-@media (max-width: 768px) {
-	.experience-card {
-		max-width: 80%;
-	}
-}
-
 
 .open-button {
 	display: block;
@@ -595,6 +601,58 @@ body {
 	cursor: pointer;
 }
 
+
+.experience-card-2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 400px;
+	height: 4%;
+	width: 100%;
+	background: rgb(132, 255, 0);
+	border-radius: 3%;
+	padding: 25px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+	position: relative;
+	margin: 0 auto;
+	/* Center horizontally */
+}
+
+.experience-card-2::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 50%;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+	background-color: #030033;
+}
+.M-logo {
+	position: relative;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	/* Use 50% for a circular shape */
+	background-color: #fff;
+	padding : 6px;
+}
+
+.open-button {
+	display: block;
+	margin-top: 20px;
+	/* Adjust the margin as needed */
+	padding: 10px 20px;
+	background-color: #0075fa;
+	/* Change to your desired button color */
+	color: #fff;
+	text-decoration: none;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	text-align: center;
+	cursor: pointer;
+}
 
 /* ----------------------------------------------- My Experience COMPLETED -------------------------------------------------------- */
 
