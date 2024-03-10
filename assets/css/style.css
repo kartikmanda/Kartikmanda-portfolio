@@ -370,74 +370,72 @@ margin: 0%;
   
   #ms {
     background-color: rgb(128, 0, 255);
-    border: 10px solid rgb(64, 0, 128);
+    border: 10px solid rgb(128, 0, 255);
   }
   
   #html {
     background-color: #0073fb;
-    border: 10px solid #02bbff; /* Darker shade of blue background */
+    border: 10px solid #0073fb;
   }
   
   #css {
     background-color: #ff0a0a;
-    border: 10px solid #9a0000; /* Darker shade of red background */
+    border: 10px solid #ff0a0a; /* Darker shade of red background */
   }
   
   #js {
     background-color: rgb(243, 97, 0);
-    border: 10px solid #ffbf6b; /* Darker shade of orange background */
+    border: 10px solid rgb(243, 97, 0) /* Darker shade of orange background */
   }
   
   #py {
     background-color: #750000;
-    border: 10px solid #ff4747; /* Darker shade of maroon background */
+    border: 10px solid #750000;
   }
   
   #sql {
     background-color: #f7b304;
-    border: 10px solid #fbd769; /* Darker shade of yellow background */
+    border: 10px solid #f7b304;
   }
   
   #cv {
     background-color: #6b1770;
-    border: 10px solid #41124e; /* Darker shade of purple background */
+    border: 10px solid  #6b1770;
   }
   
   #fg {
     background-color: #07005e;
-    border: 10px solid #030033; /* Darker shade of indigo background */
+    border: 10px solid #07005e;
   }
   
   #mvs {
     background-color: indigo;
-    border: 10px solid #7068fd; /* Darker shade of indigo background */
+    border: 10px solid indigo;
   }
   
   #gc {
     background-color: darkgreen;
-    border: 10px solid #083e14; /* Darker shade of green background */
-
+    border: 10px solid darkgreen;
   }
 
   #wp {
-    background-color: rgb(208, 165, 36);
-    border: 10px solid #083e14; /* Darker shade of green background */
-
+    background-color: #21759b;
+    border: 10px solid #21759b;
   }
 
   #em {
-    background-color: #fbfbfb;
-    border: 10px solid #440403; /* Darker shade of green background */
+    background-color: #ffffff;
+    border: 10px solid  #fbfbfb;
 
   }
   #ai{  
-    background-color: #241208; 
-    border: 10px solid #fe9a4a; /* Darker shade of green background */
+    background-color: #fe9a4a; 
+    border: 10px solid #fe9a4a;
   }  
   
   #ps {
-    background-color: #001d25;
-    border: 10px solid#00c8fe; /* Darker shade of green background */
+    background-color: #00c8fe;
+    border: 10px solid#00c8fe; 
 
   }
   
@@ -478,6 +476,10 @@ margin: 0%;
   .cv:hover,
   .fg:hover,
   .mvs:hover,
+  .ai:hover,
+  .ps:hover,
+  .em:hover,
+  .wp:hover,
   .gc:hover {
     -webkit-transform: scale(1);
     transform: scale(1);
@@ -506,6 +508,7 @@ margin: 0%;
       margin: 0.5rem;
     }
   }
+  
 /* ----------------------------------------------- SKILLS SECTION COMPLETED -------------------------------------------------------- */
 
 /* ----------------------------------------------- My Experience -------------------------------------------------------- */
