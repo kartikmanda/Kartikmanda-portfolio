@@ -560,6 +560,44 @@ margin: 0%;
     }
   }
 
+  .mcm-logo {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    /* Use 50% for a circular shape */
+    background-color: rgb(0, 162, 255);
+    padding: 5px;
+  }
+  
+  .current-experience-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    height: 4%;
+    width: 100%;
+    background: rgb(0, 229, 255);
+    border-radius: 3%;
+    padding: 25px;
+    padding-bottom: 6%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin: 0 auto;
+    /* Center horizontally */
+  }
+
+  .current-experience-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    background-color: #030033;
+  }
+
    .TY-logo {
 	position: relative;
 	height: 150px;
@@ -612,7 +650,6 @@ margin: 0%;
 	text-align: center;
 	cursor: pointer;
 }
-
 
 .experience-card-2{
 	display: flex;
@@ -667,18 +704,13 @@ margin: 0%;
 }
 
 /* ----------------------------------------------- My Experience COMPLETED -------------------------------------------------------- */
-
-
 /* ----------------------------------------------- Project -------------------------------------------------------- */
 
 
 .pt h1 {
 	text-align: center;
 	font-size: 40px;
-
-
 }
-
 
 #projects {
 	display: flex;
@@ -763,8 +795,6 @@ margin: 0%;
 
 
 /* ----------------------------------------------- Project Finished -------------------------------------------------------- */
-
-
 /* ------------------------------------------------CONTACT US-------------------------------------------------------- */
 .contact h1 {
 	text-align: center;
@@ -823,7 +853,6 @@ margin: 0%;
 	margin-bottom: 0px;
 	padding-left: 100px;
 }
-
 
 form {
 	display: flex;
