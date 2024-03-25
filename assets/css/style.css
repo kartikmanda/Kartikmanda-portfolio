@@ -509,6 +509,11 @@ margin: 0%;
       margin: 0.5rem;
     }
   }
+
+  .myskills-slide {
+	display: inline-block;
+	animation: 35s slide infinite linear;
+  }
   
 /* ----------------------------------------------- SKILLS SECTION COMPLETED -------------------------------------------------------- */
 
@@ -533,7 +538,7 @@ margin: 0%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 20px; /* Adjust the margin as needed */
+    margin-top: 20px; 
 }
 
 .experience-card {
@@ -565,7 +570,6 @@ margin: 0%;
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    /* Use 50% for a circular shape */
     background-color: rgb(0, 162, 255);
     padding: 5px;
   }
@@ -705,96 +709,150 @@ margin: 0%;
 
 /* ----------------------------------------------- My Experience COMPLETED -------------------------------------------------------- */
 /* ----------------------------------------------- Project -------------------------------------------------------- */
-
-
-.pt h1 {
-	text-align: center;
-	font-size: 40px;
+ 
+.pt h1{
+  text-align: center;
+  font-size: 40px;
+  }
+  
+  .pjcard-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+	margin-top: 10px;
 }
+  
+  .card-project-1{
+    width: 35%;
+	height: 30%;
+    background-color: #359cc1;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    margin:20px;
+	transition: transsform 0.6s ease;
+  }
 
-#projects {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 90%;
-	max-width: 90%;
-	margin: 0 auto;
-}
+  .card-project-2{
+	width: 35%;
+	height: 40%;
+    background-color: #fffdd0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    margin:20px;
+	transition: transsform 0.6s ease;
+  }
 
-@media only screen and (min-width: 550px) {
-	#projects {
-		width: 90%;
-	}
-}
+  .card:hover{
+	transform: translateY(-20px);
+  }
+  
+  
+  .card-project-1 img{
+    width:100%;
+    height: auto;
+	object-fit: cover;
+  }
 
-@media only screen and (min-width: 550px) {
-	.project-1 {
-		width: 100%;
-	}
-}
+  .card-project-2 img{
+    width:100%;
+    height: auto;
+	object-fit: cover;
+  }
+  
+  .card-project-1 .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .card-project-2 img{
+    width:50%;
+    height: auto;
 
-@media only screen and (min-width: 550px) {
-	.project-2 {
-		width: 100%;
-	}
-}
+  }
+  
+  .card-project-2 .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
-.user-projects {
-	margin-top: 6%;
-}
+  .pj1card-content{
+    padding: 10px;
+  }
 
-.user-projects img {
-	max-width: 100%;
-	height: auto;
-	border-radius: 5px;
-}
+  .pj2card-content{
+    padding: 10px;
+  }
+  
+  .pj1card-content h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+	margin-top: -30px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+	padding: auto;
+  }
 
-.user-projects h5 {
-	margin: 0;
-}
+  .pj2card-content h3{
+	font-size: 30px;
+    margin-bottom: 10px;
+	margin-top: -30px;
+    color: #a12222;
+    font-family: 'Poppins', sans-serif; 
+    text-align: center;
+	padding: auto;
+  }
 
-.user-projects li {
-	color: #1488cc;
-	font-size: 1.1rem;
-}
+  
+  .pj1card-content p{
+    color:#ffffff;
+    font-size: 15px;
+    line-height: 1.3; 
+	padding: 5%; 
+	margin: auto;
+  }
 
-.user-projects p {
-	margin-right: 5px;
-}
+  .pj2card-content p{
+    color:#000000;
+    font-size: 15px;
+    line-height: 1.3;
+	padding: 5%; 
+	margin: auto;
+  }
+  
 
-@media only screen and (min-width: 550px) {
-	.contents {
-		margin-left: 0;
-		width: 48%;
-	}
+  .pj1card-content .btn {
+    display: block;
+    width: fit-content;
+    margin: 16px auto 16px; 
+    padding: 10px 120px;
+    background-color: #00418b;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #fff;
+  }
 
-	.contents,
-	.contents-right {
-		margin-top: -5%;
-	}
-
-	.contents-right,
-	.images-right {
-		float: right;
-		width: 48%;
-	}
-
-	.images-right img {
-		float: right;
-	}
-
-	.images-left {
-		float: left;
-		width: 48%;
-	}
-
-	.images-left img {
-		float: left;
-	}
-}
-
-
-/* ----------------------------------------------- Project Finished -------------------------------------------------------- */
+  .pj2card-content .btn {
+    display: block;
+    width: fit-content;
+	margin: 16px auto 16px; 
+    padding: 10px 120px;
+    background-color:  #a12222;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #fff;
+  }
+     
+     
+  /* ----------------------------------------------- Project  Finished -------------------------------------------------------- */ 
+  
 /* ------------------------------------------------CONTACT US-------------------------------------------------------- */
 .contact h1 {
 	text-align: center;
