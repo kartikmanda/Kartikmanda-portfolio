@@ -608,7 +608,7 @@ margin: 0%;
 	width: 150px;
 	border-radius: 50%;
 	/* Use 50% for a circular shape */
-	background-color: rgb(255, 0, 0);
+	background-color: #FFA500;
 	padding: 5px;
 }
 
